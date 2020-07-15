@@ -13,7 +13,7 @@ function App() {
       <CssBaseline/>
       <Route exact path ="/" component={Home}/>
       <Route exact path ="/resume" component={Resume}/>
-      <Route exact path ="/portfolio" component={Portfolio}/>
+      <Route exact path ="/projects" component={Portfolio}/>
       <Route exact path ="/contacts" component={Contacts}/>
 
       

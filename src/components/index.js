@@ -17,7 +17,7 @@ const Home = () => {
     const classes = useStyles()
     return (
     
-            <Box component="div" >
+            <Box component="div">
                 <NavBar/>
                 <Header/>
                 <Particles
