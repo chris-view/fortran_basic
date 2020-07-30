@@ -14,8 +14,8 @@ import avatar from '../images/MEET_CH.jpg'
 
 const useStyles = makeStyles(theme => ({
     avatar:{
-        width: theme.spacing(12),
-        height: theme.spacing(12),
+        width: theme.spacing(20),
+        height: theme.spacing(20),
         margin : "1rem"
     },
     title : {
@@ -49,7 +49,7 @@ const Header = () => {
             <br/>
             <Typography className = {classes.subtitle} variant ="h5">
                 <Typed 
-                strings = {["Web Design", "Web Development", "MERN Stack"]} 
+                strings = {["Software Engineer", "Web Developer", "MERN Stack"]} 
                 typeSpeed={40} 
                 backSpeed = {60}
                 loop

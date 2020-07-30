@@ -1,6 +1,6 @@
 import React from 'react'
 import {makeStyles, BottomNavigation, BottomNavigationAction} from '@material-ui/core'
-import { Twitter, Facebook, GitHub} from '@material-ui/icons'
+import { Twitter, Facebook, LinkedIn} from '@material-ui/icons'
 
 const useStyles = makeStyles({
     root:{
@@ -31,14 +31,16 @@ const SideFooter = () => {
             <BottomNavigationAction 
                 className={classes.root} 
                 style={{paddind:"0" }} 
-                icon = {<GitHub/>}
+                icon = {<LinkedIn/>}
                 target="_blank" 
-                href="http://www.github.com/chris-view/"
+                href="http://www.linkedin.com/in/viewingchris/"
             />
             <BottomNavigationAction 
                 className={classes.root} 
                 style={{paddind:"0" }} 
                 icon = {<Twitter/>}
+                target="_blank" 
+                href="https://twitter.com/viewingchris/"
                 
             />
         </BottomNavigation>
