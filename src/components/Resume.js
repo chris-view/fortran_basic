@@ -255,20 +255,36 @@ const Resume = () => {
                     {/* end of start 4 */}
                     {/* start 5 */}
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYearItem}`}>
-                        2019-Now
+                        2018-2019
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h6" align="left" className={classes.subHeading}>
                             mern stack
                         </Typography>
                         <Typography variant="body1" align="center" style={{color:"tomato", textTransform:"capitalize"}}>
-                            SmartTech Global
+                            Viewlodges
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
-                            Currently work as a junior MERN Stack developer and tutor.
+                            We mainly built sites with the MERN Stack space
                         </Typography>
                     </Box>
                     {/* end of start 5 */}
+                    {/* start 6 */}
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYearItem}`}>
+                        2019 - Now
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h6" align="left" className={classes.subHeading}>
+                            Junior QA Engineer
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato", textTransform:"capitalize"}}>
+                            SmartTech Global
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                          I ensure a good quality of builds before deployment by offering comprehensive test checks...
+                        </Typography>
+                    </Box>
+                    {/* end of start 6 */}
                 </Box>
             </Box>
         
