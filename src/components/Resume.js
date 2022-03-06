@@ -285,6 +285,22 @@ const Resume = () => {
                         </Typography>
                     </Box>
                     {/* end of start 6 */}
+                     {/* start 7 */}
+                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYearItem}`}>
+                        2021 - 2022
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h6" align="left" className={classes.subHeading}>
+                            Mathematics Teacher, NNEAMAKA SEC. SCH.
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato", textTransform:"capitalize"}}>
+                            National Youth Service (NYSC)
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{color:"tan"}}>
+                          I was deployed to Anambra State in Dunukofia LGA during my NYSC and taught Mathematics.
+                        </Typography>
+                    </Box>
+                    {/* end of start 7 */}
                 </Box>
             </Box>
         

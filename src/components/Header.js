@@ -7,7 +7,7 @@ import {
     Grid,
     Box
 } from '@material-ui/core'
-import avatar from '../images/MEET_CH.jpg'
+import avatar from '../images/port_DP.jpg'
 
 
 //CSS STYLES
@@ -41,15 +41,15 @@ const Header = () => {
     return (
         <Box className = {classes.typedContainer}>
             <Grid container justify="center">
-                <Avatar className = {classes.avatar} src={avatar} alt ="Samuel Chriatian"/>
+                <Avatar className = {classes.avatar} src={avatar} alt ="Samuel Chrstian"/>
             </Grid>
             <Typography className = {classes.title} variant ="h4">
-                <Typed strings = {["Samuel Christian"]} typeSpeed={80} />
+                <Typed strings = {["Samuel Christian"]} typeSpeed={10} />
             </Typography>
             <br/>
             <Typography className = {classes.subtitle} variant ="h5">
                 <Typed 
-                strings = {["Software Engineer", "Web Developer", "MERN Stack"]} 
+                strings = {["Software Engineer", "Web Developer", "QA Engineer"]} 
                 typeSpeed={40} 
                 backSpeed = {60}
                 loop

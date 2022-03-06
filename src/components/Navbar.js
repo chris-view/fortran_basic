@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import MobilRightMenuSlider from '@material-ui/core/Drawer'
-import avatar from '../images/MEET_CH.jpg'
+import avatar from '../images/port_DP.jpg'
 import {Link} from 'react-router-dom'
 import SideFooter from './SideFooter'
 import {
@@ -108,11 +108,11 @@ const Navbar = () => {
                     <IconButton onClick={toggleSlider("right", true)}>
                         <ArrowForwardIosOutlined style={{color:"tomato"}}/>
                         <Typography variant ="h5" style={{color:"tan"}}>
-                        Portfolio
+                       See Portfolio
                     </Typography>
                     
                     </IconButton>
-                    <MobilRightMenuSlider open={state.right} anchor ="right" onClose={toggleSlider("right",false)}>
+                    <MobilRightMenuSlider open={state.right} anchor ="left" onClose={toggleSlider("right",false)}>
                         {sideList("right")}
                         <SideFooter/>
                     </MobilRightMenuSlider>

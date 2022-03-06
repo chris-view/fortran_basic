@@ -42,13 +42,13 @@ const portfolio = () => {
                                         Viewlodges
                                    </Typography> 
                                    <Typography variant="body2" color="textSecondary" component="p">
-                                        A site that allows students to easily search and acquire off-campus lodges across Nigerian Institutions. 
+                                        Your No. 1 Offcampus Apartment recommending and Roommate pairing platform in Nigeria. 
                                    </Typography>
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" target="_blank" href="http://www.facebook.com/viewlodges/">Share</Button>
-                                <Button size="small" target="_blank" href="https://viewlodges.netlify.app/">Live Demo</Button>
+                                <Button size="small" target="_blank" href="https://viewlodges.com.ng/">Live Version</Button>
                             </CardActions>
                 
                         </Card>
